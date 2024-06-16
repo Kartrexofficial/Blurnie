@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- apply new vibration when we going to recents -->
+    <app_feature name="com.android.launcher.NEW_RECENTS_VIBRATION" />
+</extend_features>
