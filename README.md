@@ -21,5 +21,7 @@ Currently, the module has been tested on the following devices:
 - realme 9 4G (RMX3521 with UI 5.0)
 - realme 10 Pro (RMX3663 with UI 5.0)
 
+- if you want to add Your Device,Just Contact me on Telegram
+
 # Bug Report
 If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
