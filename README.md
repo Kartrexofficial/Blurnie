@@ -1,5 +1,14 @@
 # Realmify 
 
+</div>
+<div align="center">
+  <img src="</div>
+<div align="center">
+  <img src="https://github.com/Kartrexofficial/Realmify/blob/main/.Github/resources/banner/Banner.png?raw=true" width="90%" alt="Banner">
+  
+</div>
+
+
 Welcome to Realmify! This module attempts to make the low-end realmeUI experience much better, by enabling features which are commonly disabled on low or mid range Devices of Realme . This Module need Oplus launcher to work better for now !
 
 # Disclaimer 
