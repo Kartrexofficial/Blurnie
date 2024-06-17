@@ -9,3 +9,4 @@ com.oplus.feature.custom.makeup.watermark.support=true
 com.oplus.feature.slogan.location.support=true
 com.oplus.feature.watermark.param=true
 settings_app_locale_opt_in_enabled=false
+peak_refresh_rate=1
