@@ -9,7 +9,7 @@
 </div>
 
 
-Welcome to Realmify! This module attempts to make the low-end realmeUI experience much better, by enabling features which are commonly disabled on low or mid range Devices of Realme . This Module need Oplus launcher to work better for now !
+Welcome to Realmify! This module attempts to make the low-end realmeUI experience much better, by enabling features which are commonly disabled on low or mid range Devices of Realme .
 
 # Disclaimer 
 ```
@@ -18,21 +18,16 @@ Welcome to Realmify! This module attempts to make the low-end realmeUI experienc
  * By Flashing this Module You are Making changes into system.prob to force blur and animations
 ```
 
-# Disclaimer (OnePlus Launcher)
-
-Oneplus Launcher is Given Seperated for Magisk Users
-
-OxygenOS apps and blobs are owned by Coloros™.
-The MIT license specified here is for the Magisk Module only, not for OxygenOS apps and blobs.
-
 # Requirements
 
 • Oplus (OnePlus) Launcher - To enable Blur and Animation,if the blur is already available on your Device then dont need to install Oplus Launcher.
 
+• On Version Realme Launcher_14.0.223 or above ,Blur and  Animation works on Realme Launcher Too 
+
 • If you dont need Blur,You can try Change System.prop and Change Values of blur.
 
 # Compatbility
-This module targets devices running realmeUI 5 with Oplus Launcher (Rui 4 Not Tested)
+This module targets devices running realmeUI 5 
 
 Currently, the module has been tested on the following devices:
 - realme 9 4G (RMX3521 with UI 5.0)
