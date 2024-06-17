@@ -18,6 +18,13 @@ Welcome to Realmify! This module attempts to make the low-end realmeUI experienc
  * By Flashing this Module You are Making changes into system.prob to force blur and animations
 ```
 
+# Disclaimer (OnePlus Launcher)
+
+Oneplus Launcher is Given Seperated for Magisk Users
+
+OxygenOS apps and blobs are owned by Coloros™.
+The MIT license specified here is for the Magisk Module only, not for OxygenOS apps and blobs.
+
 # Requirements
 
 • Oplus (OnePlus) Launcher - To enable Blur and Animation,if the blur is already available on your Device then dont need to install Oplus Launcher.
