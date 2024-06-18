@@ -9,30 +9,30 @@
 </div>
 
 
-Welcome to Realmify! This module attempts to make the low-end realmeUI experience much better, by enabling features which are commonly disabled on low or mid range Devices of Realme .
+Welcome to Realmify - The Next Generation of Realify ! This Module is a replacement of Realify by Ben. 
 
 # Disclaimer 
 ```
  * Your warranty is void.
  * I am not responsible for bricked devices, Bugs or Any other Issues !
- * By Flashing this Module You are Making changes into system.prob to force blur and animations
+ * By Flashing this Module You are Making changes into system.prop to force enable the blur and animations
 ```
 
 # Requirements
 
+• Magisk/Kitsune Mask
+• Use Realme Launcher or Coloros Launcher (Recommended),To enable Blur and  Animation.
 
-• Use Realme Launcher or Coloros Launcher (Recommend),To enable Blur and  Animation.
-
-• If you dont need Blur,You can try Change System.prop and Change Values of blur.
 
 # Compatbility
-This module targets devices running realmeUI 5 
+This module targets devices running realmeUI 5 but may support Rui 4 too.
 
 Currently, the module has been tested on the following devices:
 - realme 9 4G (RMX3521 with UI 5.0)
 - realme 10 Pro (RMX3663 with UI 5.0)
 
+
 - if you want to add Your Device,Just Contact me on Telegram
 
-# Bug Report
+# Bug Report/Contact 
 If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
