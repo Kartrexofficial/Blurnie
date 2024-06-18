@@ -20,9 +20,8 @@ Welcome to Realmify! This module attempts to make the low-end realmeUI experienc
 
 # Requirements
 
-• Oplus (OnePlus) Launcher - To enable Blur and Animation,if the blur is already available on your Device then dont need to install Oplus Launcher.
 
-• On Version Realme Launcher_14.0.223 or above ,Blur and  Animation works on Realme Launcher Too 
+• Use Realme Launcher or Coloros Launcher (Recommend),To enable Blur and  Animation.
 
 • If you dont need Blur,You can try Change System.prop and Change Values of blur.
 
