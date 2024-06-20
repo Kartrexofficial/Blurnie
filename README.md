@@ -38,16 +38,19 @@ Currently, the module has been tested on the following devices:
 
 <details>
   <summary>Does This Module Works with Realme Launcher </summary>
-Yes it Works in Some Specific Version,But You can use Coloros Launcher and For Better Animations you Can Use Oplus Launcher 
+
+ •-• Yes it Works in Some Specific Version,But You can use Coloros Launcher and For Better Animations you Can Use Oplus Launcher 
 
 </details>
 
 <details>
-  <summary>Does this Support Kernel SU </summary> For Now it is not tested on Kernel SU Devices, Always Use Magisk its better ♪
+  <summary> Does this Support Kernel SU </summary>  
+  •-• For Now it is not tested on Kernel SU Devices, Always Use Magisk its better ♪
 </details>
 
 <details>
-  <summary>Do we need Lsposed To Work this Module?</summary> No Need Or Lsposed 
+  <summary>Do we need Lsposed To Work this Module?</summary> 
+  •-• No Need Of Lsposed 
 </details>
 
 # Bug Report/Contact 
