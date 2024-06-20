@@ -34,5 +34,21 @@ Currently, the module has been tested on the following devices:
 
 - if you want to add Your Device,Just Contact me on Telegram
 
+# FAQ 
+
+<details>
+  <summary>Does This Module Works with Realme Launcher </summary>
+Yes it Works in Some Specific Version,But You can use Coloros Launcher and For Better Animations you Can Use Oplus Launcher 
+
+</details>
+
+<details>
+  <summary>Does this Support Kernel SU </summary> For Now it is not tested on Kernel SU Devices, Always Use Magisk its better ♪
+</details>
+
+<details>
+  <summary>Do we need Lsposed To Work this Module?</summary> No Need Or Lsposed 
+</details>
+
 # Bug Report/Contact 
 If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
