@@ -20,12 +20,12 @@ Welcome to Realmify - The Next Generation of Realify ! This Module is a replacem
 
 # Requirements
 
-• Magisk/Kitsune Mask
-• Use Realme Launcher or Coloros Launcher (Recommended),To enable Blur and  Animation.
+• Magisk/Kitsune Mask or Apatch 
+• Use latest Realme Launcher or Oxygen OS Launcher (Recommended),To enable Blur and  Animation.
 
 
 # Compatbility
-This module targets devices running realmeUI 5 but may support Rui 4 too.
+This module targets devices running realmeUI 5 but also support Rui 4 too.
 
 Currently, the module has been tested on the following devices:
 - realme 9 4G (RMX3521 with UI 5.0)
