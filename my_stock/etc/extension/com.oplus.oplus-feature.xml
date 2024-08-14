@@ -1,1 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+</oplus-config>
 
