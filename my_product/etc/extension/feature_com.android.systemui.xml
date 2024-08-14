@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.android.systemui.disable_fp_blind_unlock"/>
+</extend_features>
