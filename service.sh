@@ -1,2 +1,0 @@
-settings put global settings_app_locale_opt_in_enabled false
-settings put global settings_app_bt_le_audio_contact_sharing_enabled true
