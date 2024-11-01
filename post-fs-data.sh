@@ -96,3 +96,6 @@ check_realmeui_ver
 prepare_feature_list
 remove_lowend_features
 setup_mount
+
+# This script will be executed in post-fs-data mode (executed before system startup)
+# For more information visit Magisk Themes
