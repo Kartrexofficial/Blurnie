@@ -3,7 +3,6 @@
 	<oplus-feature name="oplus.software.support_blockable_animation"/>
 	<oplus-feature name="oplus.software.support_fluid_entry"/>
 	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
-	<oplus-feature name="oplus.software.support_fluid_entry"/>
 	<oplus-feature name="oplus.software.wallpaper_animation"/>
 	<oplus-feature name="oplus.software.zoom_wallpaper"/>
 </oplus-config>

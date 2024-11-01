@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extend_features>
+    <!-- tianjicun@APP.Launcher, , 2024/07/12, premium feature -->
     <app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH" />
 </extend_features>

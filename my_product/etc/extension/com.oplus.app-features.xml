@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.launcher.DEVICE_LEVEL_HIGH"/>
+	<app_feature name="com.android.launcher.NEW_RECENTS_VIBRATION"/>
+	<app_feature name="com.android.launcher.gc_when_user_present" args="boolean:true"/>
+	<app_feature name="com.android.launcher.support_spring_animation_app_start" args="boolean:true"/>
+	<app_feature name="com.android.launcher.DISABLE_USE_NEW_LAYOUT"/>
+</extend_features>
+<
