@@ -1,4 +1,4 @@
-# Realmify - The Next Gen Realify 
+# Blurnie - A Next Generation of Realmify 
 
 </div>
 <div align="center">
@@ -9,22 +9,23 @@
 </div>
 
 
-Welcome to Realmify - The Next Generation of Realify ! This Module is a replacement of Realify by Ben.This Module Supports A13/A14.
+Welcome to Blurnie - The Next Generation of Realify ! This Module is a replacement of Realify by Ben.This Module Supports A13/A14.
 
 # Disclaimer 
-```
- * I am not responsible for bricked devices, Bugs or Any other Issues !
+• Module Name is Changed from Realmify to *Blurnie* 
 
- * Only Use on A13/A14 based on ColorOS
+ • I am not responsible for bricked devices, Bugs or Any other Issues !
 
- * Realmify Module Doesn't Guarantee Any Performance Improvement or Optimisation On Your Device
+•  Only Use on A13/A14 based on ColorOS
 
- * By Using this Module You Are Forcing the UI to Enable Blur and Animation which may lead to Laggy Experience if Soc could render it well.
-```
+• This  Module Doesn't Guarantee Any Performance Improvement or Optimisation On Your Device
+
+• By Using this Module You Are Forcing the UI to Enable Blur and Animation which may lead to Laggy Experience if Soc could render it well.
+
 
 # Requirements
 
-• Magisk/Kitsune Mask or Apatch 
+• Supports : Magisk/Kitusne Mask/KSU/Apatch 
 • Device must be A13 or above Based on Coloros 
 • Join Telegram Channel For Earlier Updates 
 
@@ -45,4 +46,7 @@ Currently, the module has been tested on the following devices:
 If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
 
 # Special Thanks 
-Special Thanks to CN Developers on which I got knowledge about Blur And Animation..
+Special Thanks to CN Developers on where I got knowledge about Blur And Animation xmls ..
+
+[Module Template] Thanks to [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) by [Zackptg5](https://github.com/Zackptg5) 
+
