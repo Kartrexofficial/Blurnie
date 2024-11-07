@@ -9,7 +9,7 @@
 </div>
 
 
-Welcome to Blurnie - The Next Generation of Realify ! This Module is a replacement of Realify by Ben.This Module Supports A13/A14.
+Welcome to Blurnie.. This Module is a replacement of an Old Realme Module.
 
 # Disclaimer 
 • Module Name is Changed from Realmify to *Blurnie* 
