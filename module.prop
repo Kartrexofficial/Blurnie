@@ -1,6 +1,7 @@
-id=Realmify
-name=Realmify - A New Gen Realify 
-version=2.0 Official
-versioncode=1
-author=KarthiK - @KartrexOfficial
-description=Realmify is an module which Enables Blur and Animations on the System.
+id=Blurnie
+name=Blurnie - Art Of Animations & Blur
+version=v1.0 Official 
+versionCode=22
+author=Kartrex
+description=Enables Blur And Animations on Realme & Oppo Devices 
+updateJson=https://raw.githubusercontent.com/KartrexOfficial/Realmify/master/update.json
