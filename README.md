@@ -4,19 +4,18 @@
 <div align="center">
   <img src="</div>
 <div align="center">
-  <img src="https://github.com/Kartrexofficial/Realmify/blob/main/.Github/resources/banner/Banner.png?raw=true" width="90%" alt="Banner">
+  <img src="https://raw.githubusercontent.com/Kartrexofficial/Blurnie/refs/heads/main/.Github/resources/banner/Banner.png" width="100%" alt="Banner">
   
 </div>
 
+**Welcome to Blurnie - The Art Of Enabling Blur & Animation.**
 
-Welcome to Blurnie.. This Module is a replacement of an Old Realme Module.
+This Module Enables Blur & Animations On Budget Realme & Oppo Devices Based on Android 11 and Above (Till A14).
 
 # Disclaimer 
 • Module Name is Changed from Realmify to *Blurnie* 
 
  • I am not responsible for bricked devices, Bugs or Any other Issues !
-
-•  Only Use on A13/A14 based on ColorOS
 
 • This  Module Doesn't Guarantee Any Performance Improvement or Optimisation On Your Device
 
@@ -26,16 +25,21 @@ Welcome to Blurnie.. This Module is a replacement of an Old Realme Module.
 # Requirements
 
 • Supports : Magisk/Kitusne Mask/KSU/Apatch 
-• Device must be A13 or above Based on Coloros 
+
+• Device must be A11 or above Based on Coloros/RealmeUi
+
 • Join Telegram Channel For Earlier Updates 
 
 
 
 # Compatbility
-This module targets devices running realmeUI 4 & 5 (Incl : Cs13 & 14)
+This module targets devices running realmeUI 2 - 5 (Incl : Coloros 11 to 14)
 
 Currently, the module has been tested on the following devices:
 - realme 9 4G (RMX3521 with UI 5.0)
+- realme 9i 4G (RMX3491 with UI 2.0)
+- realme 9i 4G (RMX3491 with UI 3.0)
+- realme 9i 4G (RMX3491 with UI 4.0)
 - realme 10 Pro (RMX3663 with UI 5.0)
 
 
@@ -46,7 +50,8 @@ Currently, the module has been tested on the following devices:
 If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
 
 # Special Thanks 
-Special Thanks to CN Developers on where I got knowledge about Blur And Animation xmls ..
+Special Thanks to CN Developers on where I got knowledge about Blur And Animation xmls.
 
 [Module Template] Thanks to [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) by [Zackptg5](https://github.com/Zackptg5) 
 
+[Banner] Thanks to [WDableuW](https://t.me/WDableuW) by [Adi](http://telegram.me/adiLohar)
