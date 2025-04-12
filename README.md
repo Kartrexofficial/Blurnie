@@ -10,7 +10,7 @@
 
 **Welcome to Blurnie - The Art Of Enabling Blur & Animation.**
 
-This Module Enables Blur & Animations On Budget Realme & Oppo Devices Based on Android 11 and Above (Till A14).
+This Module Enables Blur & Animations On Budget Realme & Oppo Devices Based on Android 11 and Above.
 
 # Disclaimer 
 • Module Name is Changed from Realmify to *Blurnie* 
@@ -33,9 +33,9 @@ This Module Enables Blur & Animations On Budget Realme & Oppo Devices Based on A
 
 
 # Compatbility
-This module targets devices running realmeUI 2 - 5 (Incl : Coloros 11 to 14)
+This module targets devices running realmeUI 2 - 6 (Incl : Coloros/OxygenOS 11 to 15)
 
-Currently, the module has been tested on the following devices:
+the module has been tested on the following devices ( **its an Universal Module for Coloros Based UI** ) :
 - realme 9 4G (RMX3521 with UI 5.0)
 - realme 9i 4G (RMX3491 with UI 2.0)
 - realme 9i 4G (RMX3491 with UI 3.0)
@@ -43,11 +43,11 @@ Currently, the module has been tested on the following devices:
 - realme 10 Pro (RMX3663 with UI 5.0)
 
 
-- if you want to add Your Device,Just Contact me on Telegram - [@KartrexOfficial](https://telegram.me/KartrexOfficial)
+- if you want to add Your Device Name in the List,Just Contact me on Telegram - [@KartrexOfficial](https://telegram.me/KartrexOfficial)
 
 
 # Bug Report/Contact 
-If you face any issues using my Module Either Pull Request or Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
+If you face any issues using my Module Either Pull Request or [Instant] Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
 
 # Special Thanks 
 Special Thanks to CN Developers on where I got knowledge about Blur And Animation xmls.
