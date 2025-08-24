@@ -1,7 +1,7 @@
 id=Blurnie
 name=Blurnie - Art Of Animations & Blur
-version=v1.0 Official 
+version=v1.0 
 versionCode=22
-author=Kartrex
-description=Enables Blur And Animations on Realme & Oppo Devices 
-updateJson=https://raw.githubusercontent.com/KartrexOfficial/Realmify/master/update.json
+author=KartreXofficial | TG-@KartrexOfficial
+description=Enables Blur And Animations on ColorOS Devices.
+updateJson=https://raw.githubusercontent.com/Kartrexofficial/Blurnie/main/update.json
