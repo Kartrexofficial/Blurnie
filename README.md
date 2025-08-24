@@ -1,4 +1,4 @@
-# Blurnie - A Next Generation of Realmify 
+# Blurnie - Art Of Animation & Blur
 
 </div>
 <div align="center">
@@ -10,48 +10,34 @@
 
 **Welcome to Blurnie - The Art Of Enabling Blur & Animation.**
 
-This Module Enables Blur & Animations On Budget Realme & Oppo Devices Based on Android 11 and Above.
+This Module Enables Blur & Animations On ColorOS Devices Based on Android 11 and Above.
+
+> _I Don't Have Any Proper Knowledge On Magisk Modules,I Created this Module Within My Common Sense :) Feel Free to Give me Some Knowledge About Magisk Module Behaviour & Mounting In My TG.Happy Debugging_
 
 # Disclaimer 
-• Module Name is Changed from Realmify to *Blurnie* 
 
- • I am not responsible for bricked devices, Bugs or Any other Issues !
+ > Warning:
+I am not responsible for any damage, bricked devices, bugs, or other issues that may arise from using this module.
 
-• This  Module Doesn't Guarantee Any Performance Improvement or Optimisation On Your Device
 
-• By Using this Module You Are Forcing the UI to Enable Blur and Animation which may lead to Laggy Experience if Soc could render it well.
 
+> No Performance Guarantee:
+This module does not promise any performance improvements or optimizations on your device.
+
+
+
+> Usage Note:
+By installing this module, you are forcing the system UI to enable blur and animations. This may result in a laggy experience if your device's SoC cannot handle the additional load.
 
 # Requirements
 
-• Supports : Magisk/Kitusne Mask/KSU/Apatch 
+> Supported Platforms: Magisk / KSU / Apatch
 
-• Device must be A11 or above Based on Coloros/RealmeUi
+> Compatibility : This module targets devices running Android 11 To 15 (Based On ColorOS)
 
-• Join Telegram Channel For Earlier Updates 
-
-
-
-# Compatbility
-This module targets devices running realmeUI 2 - 6 (Incl : Coloros/OxygenOS 11 to 15)
-
-the module has been tested on the following devices ( **its an Universal Module for Coloros Based UI** ) :
-- realme 9 4G (RMX3521 with UI 5.0)
-- realme 9i 4G (RMX3491 with UI 2.0)
-- realme 9i 4G (RMX3491 with UI 3.0)
-- realme 9i 4G (RMX3491 with UI 4.0)
-- realme 10 Pro (RMX3663 with UI 5.0)
-
-
-- if you want to add Your Device Name in the List,Just Contact me on Telegram - [@KartrexOfficial](https://telegram.me/KartrexOfficial)
-
-
-# Bug Report/Contact 
-If you face any issues using my Module Either Pull Request or [Instant] Contact me on [Telegram](https://telegram.me/KartrexOfficial) 
 
 # Special Thanks 
-Special Thanks to CN Developers on where I got knowledge about Blur And Animation xmls.
 
-[Module Template] Thanks to [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) by [Zackptg5](https://github.com/Zackptg5) 
+[Module Template] Based On [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) by [Zackptg5](https://github.com/Zackptg5) 
 
-[Banner] Thanks to [WDableuW](https://t.me/WDableuW) by [Adi](http://telegram.me/adiLohar)
+[Banner Design] Thanks to [WDableuW](https://t.me/WDableuW) by [Adi](http://telegram.me/adiLohar)
