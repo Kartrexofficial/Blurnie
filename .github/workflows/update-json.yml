@@ -1,38 +1,63 @@
-name: Auto Update update.json
+name: Generate update.json
 
 on:
   release:
-    types: [published]  # Triggers when you publish a release
+    types: [published]
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
-
     permissions:
-      contents: write   # REQUIRED for pushing changes
+      contents: write
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          ref: main  # Change to 'master' if your default branch is master
+          fetch-depth: 0
+          ref: main   # Hardcoded to main branch
+
+      - name: Get latest release info
+        id: release
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const release = await github.rest.repos.getReleaseByTag({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag: context.payload.release.tag_name
+            });
+            return {
+              version: release.data.tag_name.replace(/^v/, ''),
+              zipUrl: release.data.assets[0]?.browser_download_url || release.data.zipball_url
+            };
 
       - name: Generate update.json
         run: |
-          echo "Generating update.json..."
+          VERSION=${{ steps.release.outputs.version }}
+          ZIP_URL=${{ steps.release.outputs.zipUrl }}
+          
+          # Get current versionCode or default to 1
+          if [ -f update.json ]; then
+            VERSIONCODE=$(jq '.versionCode' update.json)
+            VERSIONCODE=$((VERSIONCODE+1))
+          else
+            VERSIONCODE=1
+          fi
+          
           cat <<EOF > update.json
           {
-            "version": "${{ github.event.release.tag_name }}",
-            "versionCode": 2,
-            "zipUrl": "${{ github.event.release.assets[0].browser_download_url }}",
-            "changelog": "${{ github.event.release.html_url }}"
+            "version": "$VERSION",
+            "versionCode": $VERSIONCODE,
+            "zipUrl": "$ZIP_URL",
+            "changelog": "https://github.com/${{ github.repository }}/releases/tag/v$VERSION"
           }
           EOF
 
       - name: Commit and Push update.json
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add update.json
-          git commit -m "Auto-update update.json for ${{ github.event.release.tag_name }}" || echo "No changes to commit"
-          git push origin main
+          git commit -m "Auto-update update.json for v${{ steps.release.outputs.version }}"
+          git push origin HEAD:main
