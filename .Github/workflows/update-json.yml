@@ -1,0 +1,48 @@
+name: Auto Generate update.json
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate-update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Get Latest Release Info
+        id: release
+        run: |
+          RELEASE_DATA=$(curl -s https://api.github.com/repos/${GITHUB_REPOSITORY}/releases/latest)
+          TAG_NAME=$(echo $RELEASE_DATA | jq -r '.tag_name')
+          VERSION="${TAG_NAME#v}"
+          VERSION_CODE=$(echo $VERSION | sed 's/[^0-9]//g')0
+          ZIP_URL=$(echo $RELEASE_DATA | jq -r '.assets[0].browser_download_url')
+          CHANGELOG_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${TAG_NAME}"
+
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "VERSION_CODE=$VERSION_CODE" >> $GITHUB_ENV
+          echo "ZIP_URL=$ZIP_URL" >> $GITHUB_ENV
+          echo "CHANGELOG_URL=$CHANGELOG_URL" >> $GITHUB_ENV
+
+      - name: Generate update.json
+        run: |
+          cat <<EOF > update.json
+          {
+            "version": "${VERSION}",
+            "versionCode": ${VERSION_CODE},
+            "zipUrl": "${ZIP_URL}",
+            "changelog": "${CHANGELOG_URL}"
+          }
+          EOF
+
+      - name: Commit and Push update.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add update.json
+          git commit -m "Auto-update update.json for ${TAG_NAME}" || echo "No changes to commit"
+          git push
